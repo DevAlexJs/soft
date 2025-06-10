@@ -31,7 +31,7 @@
             padding: 40px;
             text-align: center;
         }
-        .soft-section {
+        .section {
             background-color: #333;
             padding: 20px;
             margin: 20px auto;
@@ -46,6 +46,16 @@
             bottom: 0;
             width: 100%;
         }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -57,29 +67,27 @@
 
 <nav>
     <a href="#acerca">Acerca de</a>
-    <a href="#soft">Herramientas</a>
+    <a href="#api">API</a>
     <a href="#contacto">Contacto</a>
 </nav>
 
 <div class="container">
-    <section id="acerca">
+    <section id="acerca" class="section">
         <h2>Sobre Nosotros</h2>
-        <p>Somos un grupo apasionado por la tecnología, creando soluciones eficientes y seguras.</p>
+        <p>Somos una comunidad enfocada en el desarrollo tecnológico, optimización de software y automatización de procesos.</p>
     </section>
 
-    <section id="soft" class="soft-section">
-        <h2>Nuestras Herramientas</h2>
-        <p>Explora nuestros **soft** diseñados para facilitar procesos y mejorar la experiencia digital.</p>
-        <ul>
-            <li>🔹 API de descarga de TikTok y Facebook</li>
-            <li>🔹 Integraciones avanzadas con GitHub</li>
-            <li>🔹 Soluciones de cifrado y seguridad</li>
-        </ul>
+    <section id="api" class="section">
+        <h2>API en Pruebas</h2>
+        <p>Estamos desarrollando una API potente para mejorar la automatización y el acceso a datos.</p>
+        <p>🔗 <strong>URL de la API:</strong> <a href="https://api.stellarwa.xyz" target="_blank">api.stellarwa.xyz</a></p>
+        <a href="https://api.stellarwa.xyz/docs" target="_blank" class="btn">Ver Documentación</a>
     </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Únete a la comunidad en Discord o síguenos en GitHub.</p>
+    <section id="contacto" class="section">
+        <h2>Web Oficial</h2>
+        <p>Visita nuestra página oficial para más información y actualizaciones.</p>
+        <a href="https://stellarwa.xyz" target="_blank" class="btn">Ir a Stellar WaBot</a>
     </section>
 </div>
 
